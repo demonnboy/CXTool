@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CXTool_Example' do
+  pod 'CXTool', :path => '../'
+
+  target 'CXTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
