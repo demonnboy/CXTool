@@ -34,6 +34,9 @@ TODO: Add long description of the pod here.
   s.subspec 'CXCategory' do |category|
     category.source_files = 'CXTool/Classes/CXCategory/**/*'
   end
+  s.subspec 'CXBaby' do |baby|
+      baby.source_files = 'CXTool/Classes/CXBaby/**/*'
+  end
   # s.resource_bundles = {
   #   'CXTool' => ['CXTool/Assets/*.png']
   # }
